@@ -1,4 +1,7 @@
 #include <iostream>
+#include <LinkNode.h>
+#include <LinkList.h>
+
 using namespace std;
 
 int main(){
@@ -7,6 +10,14 @@ int main(){
 
     int initNum;
     cin >> initNum;
-	
+    int temp;
+
+    cin >> temp;
+    
+    ListNode* firstNode = new ListNode(temp);
+	initNum--;
+    while (initNum--){
+        cin >> temp;
+    }
 	return 0;
 }

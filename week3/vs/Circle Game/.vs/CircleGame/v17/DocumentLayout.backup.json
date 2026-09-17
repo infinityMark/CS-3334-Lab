@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E108AA6C-C341-449A-8D40-A91FBAFDB633}|Circle Game.vcxproj|D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\LinkList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E108AA6C-C341-449A-8D40-A91FBAFDB633}|Circle Game.vcxproj|solutionrelative:LinkList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E108AA6C-C341-449A-8D40-A91FBAFDB633}|Circle Game.vcxproj|D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\ListNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E108AA6C-C341-449A-8D40-A91FBAFDB633}|Circle Game.vcxproj|solutionrelative:ListNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E108AA6C-C341-449A-8D40-A91FBAFDB633}|Circle Game.vcxproj|D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\LinkList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E108AA6C-C341-449A-8D40-A91FBAFDB633}|Circle Game.vcxproj|solutionrelative:LinkList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E108AA6C-C341-449A-8D40-A91FBAFDB633}|Circle Game.vcxproj|D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\LinkNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E108AA6C-C341-449A-8D40-A91FBAFDB633}|Circle Game.vcxproj|solutionrelative:LinkNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E108AA6C-C341-449A-8D40-A91FBAFDB633}|Circle Game.vcxproj|D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\Circle Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E108AA6C-C341-449A-8D40-A91FBAFDB633}|Circle Game.vcxproj|solutionrelative:Circle Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkList.cpp",
+              "DocumentMoniker": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\LinkList.cpp",
+              "RelativeDocumentMoniker": "LinkList.cpp",
+              "ToolTip": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\LinkList.cpp",
+              "RelativeToolTip": "LinkList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-16T12:36:31.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LinkNode.cpp",
+              "DocumentMoniker": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\LinkNode.cpp",
+              "RelativeDocumentMoniker": "LinkNode.cpp",
+              "ToolTip": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\LinkNode.cpp",
+              "RelativeToolTip": "LinkNode.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-16T12:18:04.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListNode.h",
+              "DocumentMoniker": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\ListNode.h",
+              "RelativeDocumentMoniker": "ListNode.h",
+              "ToolTip": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\ListNode.h",
+              "RelativeToolTip": "ListNode.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-16T12:16:58.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinkList.h",
+              "DocumentMoniker": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\LinkList.h",
+              "RelativeDocumentMoniker": "LinkList.h",
+              "ToolTip": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\LinkList.h",
+              "RelativeToolTip": "LinkList.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-16T12:16:42.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Circle Game.cpp",
+              "DocumentMoniker": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\Circle Game.cpp",
+              "RelativeDocumentMoniker": "Circle Game.cpp",
+              "ToolTip": "D:\\Self_Files\\Learning Material\\University\\01 Course\\year2\\SemA\\03 DStructure\\04 Tutorial\\week3\\vs\\Circle Game\\Circle Game.cpp",
+              "RelativeToolTip": "Circle Game.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-16T12:16:25.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
