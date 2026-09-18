@@ -1,0 +1,17 @@
+﻿  Circle Game.cpp
+Circle_Game_sul.obj : error LNK2005: "public: __cdecl CircleLinkList::CircleLinkList(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0CircleLinkList@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in CircleLinkList.obj
+Circle_Game_sul.obj : error LNK2005: "public: __cdecl CircleLinkList::CircleLinkList(void)" (??0CircleLinkList@@QEAA@XZ) already defined in CircleLinkList.obj
+Circle_Game_sul.obj : error LNK2005: "public: void __cdecl CircleLinkList::decreaselengths(void)" (?decreaselengths@CircleLinkList@@QEAAXXZ) already defined in CircleLinkList.obj
+Circle_Game_sul.obj : error LNK2005: "public: void __cdecl CircleLinkList::increaselengths(void)" (?increaselengths@CircleLinkList@@QEAAXXZ) already defined in CircleLinkList.obj
+Circle_Game_sul.obj : error LNK2005: "public: void __cdecl CircleLinkList::insert(int)" (?insert@CircleLinkList@@QEAAXH@Z) already defined in CircleLinkList.obj
+Circle_Game_sul.obj : error LNK2005: "public: void __cdecl CircleLinkList::insertIndex(int,int)" (?insertIndex@CircleLinkList@@QEAAXHH@Z) already defined in CircleLinkList.obj
+Circle_Game_sul.obj : error LNK2005: "public: void __cdecl CircleLinkList::pointerIteration(int)" (?pointerIteration@CircleLinkList@@QEAAXH@Z) already defined in CircleLinkList.obj
+Circle_Game_sul.obj : error LNK2005: "public: void __cdecl CircleLinkList::print(int)" (?print@CircleLinkList@@QEAAXH@Z) already defined in CircleLinkList.obj
+Circle_Game_sul.obj : error LNK2005: "public: void __cdecl CircleLinkList::remove(int)" (?remove@CircleLinkList@@QEAAXH@Z) already defined in CircleLinkList.obj
+Circle_Game_sul.obj : error LNK2005: main already defined in Circle Game.obj
+LinkNode.obj : error LNK2005: "public: __cdecl ListNode::ListNode(int)" (??0ListNode@@QEAA@H@Z) already defined in Circle_Game_sul.obj
+LinkNode.obj : error LNK2005: "public: __cdecl ListNode::ListNode(int,class ListNode *)" (??0ListNode@@QEAA@HPEAV0@@Z) already defined in Circle_Game_sul.obj
+LinkNode.obj : error LNK2005: "public: int __cdecl ListNode::getData(void)" (?getData@ListNode@@QEAAHXZ) already defined in Circle_Game_sul.obj
+LinkNode.obj : error LNK2005: "public: class ListNode * __cdecl ListNode::get_Next(void)" (?get_Next@ListNode@@QEAAPEAV1@XZ) already defined in Circle_Game_sul.obj
+LinkNode.obj : error LNK2005: "public: void __cdecl ListNode::setNext(class ListNode *)" (?setNext@ListNode@@QEAAXPEAV1@@Z) already defined in Circle_Game_sul.obj
+D:\Self_Files\Learning Material\University\01 Course\year2\SemA\03 DStructure\04 Tutorial\week3\vs\Circle Game\x64\Debug\Circle Game.exe : fatal error LNK1169: one or more multiply defined symbols found

@@ -24,13 +24,19 @@
     <ClCompile Include="CircleLinkList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Circle_Game_sul.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LinkList.h">
+    <ClInclude Include="CircleLinkList.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="ListNode.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data.txt" />
   </ItemGroup>
 </Project>

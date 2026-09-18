@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Self_Files\Learning Material\University\01 Course\year2\SemA\03 DStructure\04 Tutorial\01 OJ\C Largest Subsequence\Project1\main.cpp(76,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Self_Files\Learning Material\University\01 Course\year2\SemA\03 DStructure\04 Tutorial\01 OJ\C Largest Subsequence\Project1\main.cpp(85,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Project1.vcxproj -> D:\Self_Files\Learning Material\University\01 Course\year2\SemA\03 DStructure\04 Tutorial\01 OJ\C Largest Subsequence\Project1\x64\Debug\Project1.exe

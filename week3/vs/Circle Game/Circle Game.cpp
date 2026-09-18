@@ -1,17 +1,14 @@
-#include <iostream>
-#include "LinkList.h"
-
-using namespace std;
+//#include <iostream>
+#include "CircleLinkList.h"
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int initNum;
+    int initNum; // can use again
     cin >> initNum;
-    int temp;
 
-    cin >> temp;
+    int temp;    // can use again
 
     CircleLinkList list;
     while (initNum--) {
@@ -22,21 +19,20 @@ int main() {
     int totalRunTime;
     cin >> totalRunTime;
     
-    int command;
+    //int initNum;
     for (int i = 0; i < totalRunTime; i++)
     {
-        cin >> command;
-        switch (command) {
-        case 1:
-                cin >> temp;
-                cin >> command;
-                list.insertIndex(temp, command);
-            case 2:
-                cin >> temp;
-                list.remove(temp);
-            case 3:
-                cin >> temp;
-                list.print(temp);
+        cin >> initNum;
+        if (initNum == 1) {
+            cin >> temp;
+            cin >> initNum;
+            list.insertIndex(temp, initNum);
+        } else if (initNum == 2) {
+            cin >> temp;
+            list.remove(temp);
+        } else if (initNum == 3) {
+            cin >> temp;
+            list.print(temp);
         }
     }
     return 0;
