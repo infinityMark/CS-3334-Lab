@@ -70,7 +70,10 @@ void Stack::pop() {
 	delete removeNode;
 }
 
-int Stack::top() { return head->getData(); };
+int Stack::top() { 
+	if (isEmpty()) return -1;
+	return head->getData(); 
+};
 
 // Manipulate Stacks
 string process(vector<int> source, vector<int> arr) {
@@ -78,13 +81,11 @@ string process(vector<int> source, vector<int> arr) {
 	vector<int> simulateArr;
 	Stack S;
 	Stack A;
+
 	for (int i = 0; i < (int)source.size(); i++) {
 		A.push(source[i]);
 	}
 
-	// 1 2 3 4 5
-	// 1 5 4 2 3
-	// 3 2 1 4 5
 	int j = 0;
 	while (j < (int)arr.size()) {
 		if (!S.isEmpty() && S.top() == arr[j]) {
@@ -117,11 +118,10 @@ int main() {
 	int operateTime;
 	int lengthOfVector;
 
-	vector<int> simulateStackA;
-
 	cin >> testCases;	//1
 
 	while (testCases != 0) {
+		vector<int> simulateStackA;
 		cin >> numOfA;	//5
 		lengthOfVector = numOfA;
 
@@ -130,16 +130,13 @@ int main() {
 
 		cin >> operateTime;	// 3 total run time of permutation
 		while (operateTime--) {
-			vector<int> permutation;
-			
+			vector<int> permutation;			
 			writeVector(permutation, lengthOfVector);
-
 			cout << process(simulateStackA, permutation) << endl;
-
 			permutation.clear();
 		}
 		testCases--;
+		simulateStackA.clear();
 	}
-
 	return 0;
 }

@@ -76,18 +76,21 @@ int Queue::top() {
 
 // main
 const int HIGHPRIORITY = 0;
-const int LOWEPRIORITY = 1;
 
-void output(int finishTime, bool remain) {
-	cout << finishTime;
-	if (remain) cout << " ";
+void space(int position) {
+	if (position != 0)
+		cout << " ";
 }
 
 void process(int testTime) {
 	Queue highQueue;
-	Queue highArrvialQueue;
 	Queue loweQueue;
+
+	Queue highArrvialQueue;
 	Queue loweArrvialQueue;
+
+	Queue highOutSequnence;
+	Queue loweOutSequnence;
 
 	Queue manager;
 	int* arr = new int[testTime]();
@@ -105,36 +108,43 @@ void process(int testTime) {
 		if (p == HIGHPRIORITY) {
 			highQueue.enqueue(w);
 			highArrvialQueue.enqueue(r);
+			highOutSequnence.enqueue(taskCounter);
+			taskCounter++;
 			continue;
 		}
 		loweQueue.enqueue(w);
 		loweArrvialQueue.enqueue(r);
+		loweOutSequnence.enqueue(taskCounter);
+		taskCounter++;
 	}
 
 	while (!manager.isEmpty()) {
 		if (!highQueue.isEmpty() && highArrvialQueue.top() <= currTime) {
 			currTime += highQueue.dequeue();
 			manager.dequeue();
-			arr[taskCounter++] = currTime;
+			arr[highOutSequnence.dequeue()] = currTime;
 			continue;
 		}
 		else if (!loweQueue.isEmpty() && loweArrvialQueue.top() <= currTime) {
 			currTime += loweQueue.dequeue();
 			manager.dequeue();
-			arr[taskCounter++] = currTime;
+			arr[loweOutSequnence.dequeue()] = currTime;
 			continue;
 		}
 		currTime++;
+	}
+
+	for (int i = taskCounter - 1; i >= 0; i--)
+	{
+		cout << arr[i];
+		space(i);
 	}
 }
 
 int main() {
 	int testTime;
-
-	while (true) {
-		cin >> testTime;
+	while (cin >> testTime) {
 		process(testTime);
-		//break;
 	}
 
 	return 0;
